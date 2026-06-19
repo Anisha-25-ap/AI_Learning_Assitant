@@ -37,7 +37,10 @@ const deleteDocument = async (id) => {
 
 const getDocumentById = async (id) => {
   try {
-    const response = await axiosInstance.get(API_PATHS.DOCUMENTS.GET_DOCUMENTS_BY_ID(id));
+    // API prefix add kiya taaki backend ise pehchan sake
+    const response = await axiosInstance.get(`/api/documents/${id}`);
+    
+    // Data extract safely
     return response.data?.data ? response.data.data : response.data;
   } catch (error) {
     throw error.response?.data || { message: 'Failed to fetch document details' };

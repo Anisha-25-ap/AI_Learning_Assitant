@@ -37,9 +37,10 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         }`}
       >
         {/* Logo and Close button */}
-        <div className=" flex items-center justify-between h-16 px-5 border-b border-slate-200/60">
+        <div className="flex items-center justify-between h-16 px-5 border-b border-slate-200/60">
           <div className="flex items-center gap-3">
-            <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-linear-to-br from-emerald-400 to-teal-500 shadow-md shadow-md shadow-emerald-500/20">
+            {/* FIXED: Changed bg-linear-to-br to bg-gradient-to-br & removed duplicate shadow-md */}
+            <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-500 shadow-md shadow-emerald-500/20">
               <BrainCircuit className="text-white" size={20} strokeWidth={2.5} />
             </div>
             <h1 className="text-sm md:text-base font-bold text-slate-900 tracking-tight">AI Learning Assistant</h1>
@@ -50,7 +51,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         </div>
 
         {/* Navigation */}
-        <nav className="flex-1 px-4 space-y-1">
+        <nav className="flex-1 px-4 py-4 space-y-1">
           {navLinks.map((link) => (
             <NavLink
               key={link.to}
@@ -89,8 +90,8 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             className="group flex items-center gap-3 w-full px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-red-50 hover:text-red-600 rounded-xl transition-all duration-200"
           >
             <LogOut size={18} 
-            strokeWidth={2.5}
-            className='transition-transform duration-200 group-hover:scale-110'
+              strokeWidth={2.5}
+              className='transition-transform duration-200 group-hover:scale-110'
             />
             Logout
           </button>
