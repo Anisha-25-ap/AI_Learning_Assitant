@@ -10,7 +10,7 @@ An intelligent, full-stack learning platform designed to act as a personalized s
 Manage all your imported study materials in a centralized dashboard. The engine includes a secure document viewer to display and navigate files seamlessly.
 * **Seamless Previews:** Built-in validation system to handle file preview URLs and safely render content inside sandboxed frames.
 
-![Document Viewer Preview](frontend/public/screenshots/document-viewer.png)
+![Document Viewer Preview](frontend/Ai-learning-assistant/public/ss/Document_Viewer.png)
 
 ---
 
@@ -18,7 +18,7 @@ Manage all your imported study materials in a centralized dashboard. The engine 
 Interact directly with your study materials through a real-time responsive chat wrapper.
 * **Instant Clarifications:** Ask targeted questions about complex paragraphs, trace code structures, or ask for deep breakdowns without leaving the reading pane.
 
-![AI Chat Interface Preview](frontend/public/screenshots/chat-interface.png)
+![AI Chat Interface Preview](frontend/Ai-learning-assistant/public/ss/Ai_chat_interface.png)
 
 ---
 
@@ -27,7 +27,7 @@ Accelerate your learning curve with automated processing tools engineered to eli
 * **Generate Summary:** Condense heavy multi-page documents or long updates into clear, high-yield markdown bullet points.
 * **Explain a Concept:** Input any technical term or abstract architecture pattern (e.g., *React Hooks*, *MERN Auth Flow*) to receive an immediate, guided technical breakdown.
 
-![AI Actions Hub Preview](frontend/public/screenshots/ai-actions.png)
+![AI Actions Hub Preview](frontend/Ai-learning-assistant/public/ss/AI_Action_hub.png)
 
 ---
 
@@ -38,7 +38,7 @@ Accelerate retention with flashcard workflows split into two dynamic layers:
 
 | Document Instance Action View | Global Decks Dashboard |
 | :---: | :---: |
-| ![Document Flashcard View](frontend/public/screenshots/document-flashcards.png) | ![Global Decks Hub](frontend/public/screenshots/global-flashcards.png) |
+| ![Document Flashcard View](frontend/Ai-learning-assistant/public/ss/Document_flashcard_view.png) | ![Global Decks Hub](frontend/Ai-learning-assistant/public/ss/global_flashcards.png) |
 
 ---
 
